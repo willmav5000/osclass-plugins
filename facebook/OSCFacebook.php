@@ -97,7 +97,7 @@
                     exit();
                 }
 
-                if( Params::getParam('fbc_login') !== 'true' ) {
+                if( Params::getParam('fbc_login') == 'true' ) {
                     return self::$facebook;
                 }
 
